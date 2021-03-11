@@ -3,7 +3,10 @@ function pickCards(shuffledDeck) {
     playerTwoDeck[];
 
    while (let i = 1; i < shuffledDeck.length; i++) {
-       if ()
+
+
+       }
+
     }
 
 }
