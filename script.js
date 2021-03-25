@@ -62,10 +62,7 @@ function pickCards(shuffledDeck) {
 function displayDeck(winner, deck) {
     document.getElementById("winningPlayer").innerHTML = winner;
     document.getElementById("noOfCards").innerHTML = deck.length;
-
-
     let deckHTML = '<table><tr>'
-
     for (let i = deck.length - 1; i < 0; i++) {
         let card = deck[i].Suit + deck[i].Value;
         let image = "img/" + deck[i].Suit + deck[i].Value + ".jpg";
